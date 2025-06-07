@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Dosis', sans-serif;
+    background-color: #1191a8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  }
+  
+  .card-bio {
+    background-color: #007d99;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .img-wrapper {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+  }
+  
+  .img-wrapper img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .person-info h3 {
+    font-size: 2.2rem;
+    margin-bottom: 5px;
+  }
+  
+  .person-info p {
+    font-size: 1.4rem;
+  }
+  
+  .card-section {
+    padding: 15px 20px;
+    border-top: 1px solid #ddd;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .card-section summary {
+    font-size: 1.6rem;
+    font-weight: bold;
+    cursor: pointer;
+    list-style: none;
+    outline: none;
+    padding: 10px 0;
+  }
+  
+  .card-section summary::marker {
+    display: none;
+  }
+  
+  .card-section[open] summary {
+    color: #007d99;
+  }
+  
+  .section-content {
+    padding: 10px 0 0 0;
+    font-size: 1.4rem;
+  }
+
+  .button {
+    align-items: center;
+  }
