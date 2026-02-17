@@ -1,4 +1,4 @@
-## Travel Card Final Project: A live medical card for international travel.
+## Travel Card: A live medical card for international travel.
 Medical records and personal information are understandably heavily protected but in a traveling situation it is especially important that individuals have access to their most up-to-date medical information. With this tool patients select personal information they would like to make visible, then their most up-to-date medical information displays on their phone background or smartphone digital Wallet.
 
 Cloud Components: This project sets out to demonstrates how cloud storage can be used to keep medical record information on patients secure, accessible abroad, and up-to-date in a visual wallet. I wanted to further demonstrate how to increase security of the Protected Health Information (PHI) by enabling advanced security features in AWS, like activity monitoring.  
